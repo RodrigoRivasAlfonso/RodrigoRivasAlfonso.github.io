@@ -32,7 +32,7 @@ body {
 #header-title {
     display: block;
     float: left;
-
+    margin-left: 10px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -41,6 +41,7 @@ body {
     display: block;
     float: right;
     margin-top: 0;
+    margin-right: 10px;
 }
 
 #header-nav li {
@@ -82,10 +83,12 @@ a:active {
 }
 
 .column {
-    min-width: 300px;
-    max-width: 690px;
+    min-width: 200px;
+    max-width: 600px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .post, .about {
